@@ -37,7 +37,7 @@ trait EnvironmentsPropertyAwareTrait
     /**
      * @inheritdoc
      */
-    public function setEnvironments(string ...$environments): void
+    public function setEnvironments(...$environments): void
     {
         $this->environments = $environments;
     }

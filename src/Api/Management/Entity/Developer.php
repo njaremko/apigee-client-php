@@ -85,7 +85,7 @@ class Developer extends AppOwner implements DeveloperInterface
      *
      * @internal
      */
-    public function setCompanies(string ...$companies): void
+    public function setCompanies(...$companies): void
     {
         $this->companies = $companies;
     }

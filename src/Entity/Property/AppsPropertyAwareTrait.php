@@ -53,7 +53,7 @@ trait AppsPropertyAwareTrait
      *
      * @internal
      */
-    public function setApps(string ...$apps): void
+    public function setApps(...$apps): void
     {
         $this->apps = $apps;
     }
