@@ -97,7 +97,7 @@ class AppCredential extends Entity implements AppCredentialInterface
      *
      * @internal
      */
-    public function setApiProducts(CredentialProductInterface ...$apiProducts): void
+    public function setApiProducts(...$apiProducts): void
     {
         $this->apiProducts = $apiProducts;
     }

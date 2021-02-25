@@ -196,7 +196,7 @@ abstract class App extends Entity implements AppInterface
      *
      * @internal
      */
-    public function setCredentials(AppCredentialInterface ...$credentials): void
+    public function setCredentials(...$credentials): void
     {
         $this->credentials = $credentials;
     }
